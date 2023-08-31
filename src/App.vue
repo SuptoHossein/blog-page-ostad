@@ -73,12 +73,12 @@ async function categories() {
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
 
-                <RouterLink class="bg-gray-300 hover:bg-gray-200 text-gray-900 rounded-md px-3 py-2 text-sm font-medium"
+                <RouterLink class="hover:bg-gray-200 text-gray-900 rounded-md px-3 py-2 text-sm font-medium"
                             to="/"
                 >হোম
                 </RouterLink>
                 <RouterLink v-for="category in categoryData" :key="category.id"
-                            class="bg-gray-300 text-gray-900 hover:bg-gray-200 rounded-md px-3 py-2 text-sm font-medium"
+                            class="text-gray-900 hover:bg-gray-200 rounded-md px-3 py-2 text-sm font-medium"
                             to="/"
                 >{{ category.name }}
                 </RouterLink>
