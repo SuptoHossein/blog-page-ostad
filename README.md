@@ -10,6 +10,11 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+### Assignment Link
+See [live blog site](https://blog-page-ostad.netlify.app/).
+
+https://blog-page-ostad.netlify.app/
+
 ## Project Setup
 
 ```sh
@@ -33,3 +38,4 @@ npm run build
 ```sh
 npm run lint
 ```
+
